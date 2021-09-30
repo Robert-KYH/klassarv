@@ -1,12 +1,10 @@
 package kyh.klassarv;
 
 
-class Djur {
+abstract class Djur {
   protected String namn;
 
-  Djur(String n)  {  namn = n;  }
-
-  String läte()  {  return "";  }
+  abstract String läte();
 
   void setNamn(String n)  {  namn = n;  }
   String getNamn()  {  return namn;  }

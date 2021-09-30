@@ -1,10 +1,8 @@
 package kyh.klassarv;
 
-import kyh.klassarv.Djur;
-
 
 class Hund extends Djur {
-  Hund(String n)  {  super(n);  }
+  Hund(String n)  {  namn = n;  }
 
   String läte()  {  return "voff!";  }
 }
